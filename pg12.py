@@ -1,0 +1,6 @@
+percent = float(input('Enter percentage of marks : '))
+if percent>=90: print('S')
+elif percent>=85: print('A+')
+elif percent>=80: print('A')
+elif percent>=75: print('B+')
+else: print('Failed')
