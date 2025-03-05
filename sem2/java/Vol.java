@@ -25,6 +25,14 @@ class Cuboid implements Comparable{
             return 0;
             }
     }
+    public String area() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'area'");
+    }
+    public String perimeter() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'perimeter'");
+    }
 }
 class Cylinder implements Comparable{
     public double r,h;
