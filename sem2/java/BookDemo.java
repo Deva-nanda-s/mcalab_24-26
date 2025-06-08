@@ -42,7 +42,7 @@ public class BookDemo{
 
         
         public static void main(String[] args){
-             Scanner sc = new Scanner(System.in); // Create Scanner once
+             Scanner sc = new Scanner(System.in); 
              Book[] b = new Book[10];
 
              for(int i=0;i<3;i++){

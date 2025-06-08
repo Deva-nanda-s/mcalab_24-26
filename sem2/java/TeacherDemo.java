@@ -70,14 +70,14 @@ public class TeacherDemo {
 
         // Ask user for number of teachers
         System.out.print("Enter the number of teachers: ");
-        int numTeachers = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        int n1 = scanner.nextInt();
+        scanner.nextLine(); 
 
         // Create an array of Teacher objects
-        Teacher[] teachers = new Teacher[numTeachers];
+        Teacher[] teachers = new Teacher[n1];
 
         // Loop to take input for each teacher
-        for (int i = 0; i < numTeachers; i++) {
+        for (int i = 0; i < n1; i++) {
             System.out.println("\nEnter details for Teacher " + (i + 1) + ":");
             System.out.print("Name: ");
             String name = scanner.nextLine();
@@ -87,6 +87,7 @@ public class TeacherDemo {
             String address = scanner.nextLine();
             System.out.print("Age: ");
             int age = scanner.nextInt();
+
             System.out.print("Employee ID: ");
             int empid = scanner.nextInt();
             scanner.nextLine(); // Consume the newline
@@ -95,6 +96,7 @@ public class TeacherDemo {
             System.out.print("Qualification: ");
             String qualification = scanner.nextLine();
             System.out.print("Salary: ");
+            
             float salary = scanner.nextFloat();
             System.out.print("Teacher ID: ");
             int teacherid = scanner.nextInt();
